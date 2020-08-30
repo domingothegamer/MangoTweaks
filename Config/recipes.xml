@@ -1,0 +1,17 @@
+<MangoTweaks>
+
+	<append xpath="/recipes">
+		<!--<recipe name="" count="1" craft_time="240" craft_area="workbench" tags="learnable,workbenchCrafting">
+			<ingredient name="" count="1">
+		</recipe>
+		-->
+		<recipe name="resourceSpring" count="1" craft_time="10" material_based="true" craft_area="forge" craft_tool="toolForgeCrucible" tags="perkAdvancedEngineering">
+			<ingredient name="unit_iron" count="20"/>
+			<ingredient name="unit_clay" count="10"/>
+			<ingredient name="unit_stone" count="5"/>
+			<effect_group>
+				<passive_effect name="CraftingIngredientCount" operation="perc_add" level="0,1,2,3,4" value=".25,.25,.25,.177,.12" tags="unit_clay,unit_iron,unit_stone"/>
+			</effect_group>
+		</recipe>
+	</append>
+</MangoTweaks>

@@ -1,0 +1,75 @@
+<MangoTweaks>
+	<append xpath="/items">
+		<item name="drinkMangosElixer1">
+			<property name="HoldType" value="3"/>
+			<property name="Meshfile" value="#Other/Items?Food/bottled_waterPrefab.prefab"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="Mglass"/>
+			<property name="Weight" value="10"/>
+			<property name="Stacknumber" value="10"/> <!-- STK resource -->
+			<property name="EconomicValue" value="0"/>
+			<property name="DisplayType" value="waterGrandpasMoonshine"/>
+			<property name="Group" value="Food/Cooking,CFDrink/Cooking"/>
+			<property class="Action0">
+				<property name="Class" value="Eat"/>
+				<property name="Delay" value="1"/>
+				<property name="Use_time" value="..."/>
+				<property name="Sound_start" value="player_drinking"/>
+				<property name="Create_item" value="drinkJarEmpty"/>
+		</property>
+		<effect_group tiered="false" name="GiveMeDaEXP">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveSkillExp" target="self" skill="attIntellect" experience="30000"/>
+			
+		</effect_group>
+
+		</item>
+		
+		<item name="drinkMangosElixer2">
+			<property name="HoldType" value="3"/>
+			<property name="Meshfile" value="#Other/Items?Food/bottled_waterPrefab.prefab"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="Mglass"/>
+			<property name="Weight" value="10"/>
+			<property name="Stacknumber" value="10"/> <!-- STK resource -->
+			<property name="EconomicValue" value="0"/>
+			<property name="DisplayType" value="waterGrandpasMoonshine"/>
+			<property name="Group" value="Food/Cooking,CFDrink/Cooking"/>
+			<property class="Action0">
+				<property name="Class" value="Eat"/>
+				<property name="Delay" value="1"/>
+				<property name="Use_time" value="..."/>
+				<property name="Sound_start" value="player_drinking"/>
+				<property name="Create_item" value="drinkJarEmpty"/>
+		</property>
+		<effect_group tiered="false" name="GiveMeDaEXP">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveSkillExp" target="self" skill="attIntellect" experience="100000"/>
+			
+		</effect_group>
+
+		</item>
+		
+		<item name="drinkMangosElixer3">
+			<property name="HoldType" value="3"/>
+			<property name="Meshfile" value="#Other/Items?Food/bottled_waterPrefab.prefab"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="Mglass"/>
+			<property name="Weight" value="10"/>
+			<property name="Stacknumber" value="10"/> <!-- STK resource -->
+			<property name="EconomicValue" value="0"/>
+			<property name="DisplayType" value="waterGrandpasMoonshine"/>
+			<property name="Group" value="Food/Cooking,CFDrink/Cooking"/>
+			<property class="Action0">
+				<property name="Class" value="Eat"/>
+				<property name="Delay" value="1"/>
+				<property name="Use_time" value="..."/>
+				<property name="Sound_start" value="player_drinking"/>
+				<property name="Create_item" value="drinkJarEmpty"/>
+		</property>
+		<effect_group tiered="false" name="GiveMeDaEXP">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveSkillExp" target="self" skill="attIntellect" experience="500000"/>
+			
+		</effect_group>
+
+		</item>
+	</append>
+</MangoTweaks>

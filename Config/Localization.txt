@@ -1,0 +1,7 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english
+drinkMangosElixer1,Items,Drink,,,"Mango's Elixer 1"
+drinkMangosElixer1Desc,Items,Drink,,,"A drink from the Mango man that gives EXP @ 30000"
+drinkMangosElixer2,Items,Drink,,,"Mango's Elixer 2"
+drinkMangosElixer2Desc,Items,Drink,,,"A drink from the Mango man that gives EXP @ 100000"
+drinkMangosElixer3,Items,Drink,,,"Mango's Elixer 3"
+drinkMangosElixer3Desc,Items,Drink,,,"A drink from the Mango man that gives EXP @ 500000"
