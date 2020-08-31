@@ -13,5 +13,16 @@
 				<passive_effect name="CraftingIngredientCount" operation="perc_add" level="0,1,2,3,4" value=".25,.25,.25,.177,.12" tags="unit_clay,unit_iron,unit_stone"/>
 			</effect_group>
 		</recipe>
+
+		<recipe name="resourceSewingKit" count="3" craft_time="10" material_based="true" craft_area="workbench" >
+			<ingredient name="resourceCloth" count="6"/>
+			<ingredient name="resourceYuccaFibers" count="18"/>
+			<ingredient name="unit_iron" count="1"/>
+		</recipe>
+
+		<recipe name="resourceAcid" count="3" craft_time="10" material_based="true" craft_area="workbench" >
+			<ingredient name="carBattery" count="1"/>
+		</recipe>
+
 	</append>
 </MangoTweaks>
