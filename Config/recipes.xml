@@ -13,5 +13,16 @@
 				<passive_effect name="CraftingIngredientCount" operation="perc_add" level="0,1,2,3,4" value=".25,.25,.25,.177,.12" tags="unit_clay,unit_iron,unit_stone"/>
 			</effect_group>
 		</recipe>
+	
+		<recipe name="resourceScrapBrass" count="100" craft_time="10" material_based="false" craft_area="chemistryStation" tags="chemStationCrafting">
+			<ingredient name="resourceScrapIron" count="100"/>
+			<ingredient name="drinkJarRiverWater" count="5"/>
+		</recipe>
+
+		<recipe name="resourceScrapBrassBundle" count="1000" craft_time="10" material_based="false" craft_area="chemistryStation" tags="chemStationCrafting">
+			<ingredient name="resourceScrapIron" count="800"/>
+			<ingredient name="drinkJarRiverWater" count="40"/>
+		</recipe>
+
 	</append>
 </MangoTweaks>
