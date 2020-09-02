@@ -76,7 +76,7 @@
 			<property name="Extends" value="resourceRockSmallBundle"/>
 			<property name="CustomIcon" value="resourceScrapBrass"/>
 			<property class="Action0">
-				<property name="Create_item" value="Stack of Brass"/>
+				<property name="Create_item" value="Stack of Brass (6000)"/>
 				<property name="Create_item_count" value="6000"/>
 			</property>
 		</item>
