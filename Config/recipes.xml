@@ -24,6 +24,6 @@
 			<ingredient name="resourceBulletTip" count="80"/>
 			<ingredient name="resourceGunPowder" count="480"/>
 			<ingredient name="resourceBulletCasing" count="80"/>
-</recipe>
+		</recipe>
 	</append>
 </MangoTweaks>

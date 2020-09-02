@@ -92,6 +92,7 @@
 	</effect_group>
 </item>
 -->
+
 <!-- Explosive 7.62 ammunition -->
 		<item name="ammo762mmBulletExploding">
 			<property name="Extends" value="ammo762mmBulletBall"/>
