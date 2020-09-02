@@ -6,4 +6,4 @@ drinkMangosElixer2Desc,Items,Drink,,,"A drink from the Mango man that gives EXP 
 drinkMangosElixer3,Items,Drink,,,"Mango's Elixer 3"
 drinkMangosElixer3Desc,Items,Drink,,,"A drink from the Mango man that gives EXP @ 500000"
 resourceScrapBrassBundle,items,Item,,,"Stack of Brass (6000)"
-resourceScrapBrassBundle,items,Item,,,"This is a compact stack of brass. Use this item to open and unpack it."
+resourceScrapBrassBundleDesc,items,Item,,,"This is a compact stack of brass. Use this item to open and unpack it."
