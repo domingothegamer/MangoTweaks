@@ -71,5 +71,49 @@
 		</effect_group>
 
 		</item>
+
+<!--		
+<item name="ammo9mmBulletBall">
+	<property name="Tags" value="ammo"/>
+	<property name="DisplayType" value="ammoBullet"/>
+	<property name="HoldType" value="45"/>
+	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="Mbrass"/>
+	<property name="MeltTimePerUnit" value=".4"/>
+	<property name="Stacknumber" value="300"/>
+	<property name="EconomicValue" value="9"/>
+	<property name="Group" value="Ammo/Weapons"/>
+	<effect_group name="ammo9mmBulletBall" tiered="false">
+		<passive_effect name="EntityDamage" operation="base_set" value="32" tags="perkGunslinger,9mmGun"/>
+		<passive_effect name="BlockDamage" operation="base_set" value="7" tags="perkGunslinger"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="earth"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value="2" tags="wood"/>
+	</effect_group>
+</item>
+-->
+<!-- Explosive 7.62 ammunition -->
+		<item name="ammo762mmBulletExploding">
+			<property name="Extends" value="ammo762mmBulletBall"/>
+			<property name="Stacknumber" value="150"/> <!-- STK ammo low -->
+			<property name="EconomicValue" value="20"/>
+			<property name="Group" value="Ammo/Weapons"/>
+			<property class="Action1"> <!-- Explosive behavior -->
+				<!--<property name="Explosion.ParticleIndex" value="0"/>  no expl. -->
+				<property name="Class" value="Projectile"/>
+				<property name="Gravity" value="-7"/>
+				<property name="Explosion.ParticleIndex" value="4"/> <!-- which Prefab/particle is used -->
+				<property name="Explosion.BlockDamage" value="0.2"/>
+				<property name="Explosion.RadiusBlocks" value="2"/> <!-- damage radius for blocks -->
+				<property name="Explosion.EntityDamage" value="60"/>
+			</property>
+			<effect_group name="ammo762mmBulletExploding" tiered="false">
+				<passive_effect name="EntityDamage" operation="base_set" value="45" tags="perkDeadEye,perkMachineGunner"/>
+				<passive_effect name="BlockDamage" operation="base_set" value="10" tags="perkDeadEye,perkMachineGunner"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="earth"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="2" tags="wood"/>
+				<display_value name="ExRadius" value="4"/>
+			</effect_group>
+		</item>
 	</append>
 </MangoTweaks>
