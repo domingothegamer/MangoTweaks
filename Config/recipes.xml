@@ -19,7 +19,7 @@
 			<ingredient name="drinkJarRiverWater" count="5"/>
 		</recipe>
 
-		<recipe name="resourceScrapBrassBundle" count="1000" craft_time="10" material_based="false" craft_area="chemistryStation" tags="chemStationCrafting">
+		<recipe name="resourceScrapBrassBundle" count="1" craft_time="10" material_based="false" craft_area="chemistryStation" tags="chemStationCrafting">
 			<ingredient name="resourceScrapIron" count="800"/>
 			<ingredient name="drinkJarRiverWater" count="40"/>
 		</recipe>
