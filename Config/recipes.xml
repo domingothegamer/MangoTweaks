@@ -23,6 +23,50 @@
 			<ingredient name="resourceScrapIron" count="4800"/>
 			<ingredient name="drinkJarRiverWater" count="240"/>
 		</recipe>
+		<!-- UH 60 Mod -->
+		<recipe name="vehicleUH60chassis" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+			<ingredient name="resourceSpring" count="25"/>
+			<ingredient name="resourceForgedSteel" count="350"/>
+	        <ingredient name="resourceMechanicalParts" count="50"/>
+	        <ingredient name="resourceDuctTape" count="40"/>
+	        <ingredient name="resourceMetalPipe" count="50"/>
+		</recipe>
+		
+		<recipe name="vehicleUH60accessories" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+			<ingredient name="resourceForgedSteel" count="50"/>
+	        <ingredient name="resourceMechanicalParts" count="10"/>
+	        <ingredient name="resourceLeather" count="50"/>
+	        <ingredient name="resourceElectricParts" count="40"/>
+	        <ingredient name="resourceHeadlight" count="2"/>
+		</recipe>
+	
+		<recipe name="vehicleUH60placeable" count="1" craft_area="workbench" craft_time="60" tags="workbenchCrafting">
+			<ingredient name="vehicleWheels" count="3"/>
+			<ingredient name="vehicleUH60accessories" count="1"/>
+			<ingredient name="vehicleUH60chassis" count="1"/>
+			<ingredient name="smallEngine" count="1"/>
+	        <ingredient name="carBattery" count="1"/>
+		</recipe>
+		<!-- UH 60 Mod End -->
+		<!-- VEHICLES -->
+	
+		<recipe name="vehicleGuppyArmoredCobraPlaceable" count="1" craft_time="600" craft_area="workbench" tags="workbenchCrafting">
+			<ingredient name="resourceElectricParts" count="1"/>
+			<ingredient name="resourceForgedSteel" count="100"/>
+		</recipe> 
+		<recipe name="vehicleGuppyBuggyPlaceable" count="1" craft_time="600" craft_area="workbench" tags="workbenchCrafting">
+			<ingredient name="resourceElectricParts" count="1"/>
+		</recipe>
+		<recipe name="vehicleGuppyQuadPlaceable" count="1" craft_time="600" craft_area="workbench" tags="workbenchCrafting">
+			<ingredient name="resourceForgedSteel" count="40"/>
+			<ingredient name="resourceElectricParts" count="10"/>
+			<ingredient name="resourceMechanicalParts" count="10"/>
+		</recipe>
+		<recipe name="vehicleGuppyMilitaryTruckPlaceable" count="1" craft_time="600" craft_area="workbench" tags="workbenchCrafting">
+			<ingredient name="resourceForgedSteel" count="40"/>
+			<ingredient name="resourceElectricParts" count="10"/>
+			<ingredient name="resourceMechanicalParts" count="10"/>
+		</recipe>
 
 	</append>
 </MangoTweaks>
