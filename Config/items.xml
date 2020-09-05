@@ -1,4 +1,7 @@
 <MangoTweaks>
+	<append xpath="/items/item[@name='vehicleWheels']" >
+		<property name="Stacknumber" value="8"/>
+	 </append>
 	<append xpath="/items">
 		<item name="drinkMangosElixer1">
 			<property name="HoldType" value="3"/>
@@ -80,5 +83,154 @@
 				<property name="Create_item_count" value="6000"/>
 			</property>
 		</item>
+
+		<item name="vehicleUH60chassis">
+			<property name="Extends" value="vehicleWheels"/>
+			<property name="CustomIcon" value="UH60chassis"/>
+			<property name="DescriptionKey" value="vehicleUH60chassisDesc"/>
+			<property name="EconomicValue" value="100"/>
+		</item>
+		
+		<item name="vehicleUH60accessories">
+			<property name="Extends" value="vehicleWheels"/>
+			<property name="CustomIcon" value="UH60accessories"/>
+			<property name="DescriptionKey" value="vehicleUH60accessoriesDesc"/>
+			<property name="EconomicValue" value="100"/>
+		</item>
+		
+		<item name="vehicleUH60placeable">
+			<property name="Extends" value="vehicleMinibikePlaceable"/>
+			<property name="CustomIcon" value="UH60"/>
+			<property name="DescriptionKey" value="vehicleUH60placeableDesc"/>
+			<property name="Meshfile" value="#@modfolder:Resources/uh60.unity3d?UH60heli.prefab"/>
+			<property name="EconomicValue" value="30000"/>
+			<property class="Action1">
+				<property name="Vehicle" value="vehicleUH60"/>
+				<property name="VehicleSize" value="4.7, 4.8, 5"/>
+			</property>
+			<effect_group name="Base Effects">
+				<passive_effect name="ModSlots" operation="base_set" value="4"/>
+				<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+				<passive_effect name="DegradationMax" operation="base_set" value="4500"/>
+			</effect_group>
+		</item>
+
+
+		<!-- Vehicle Harvests and Tire Pickup -->
+		<!--  TOOLS -->
+		<!--Begin Placeable vehicles -->
+		<item name="vehicleGuppyArmoredCobraPlaceable">
+			<property name="Tags" value="vehicle"/>
+			<property name="DescriptionKey" value="vehicleGuppyArmoredCobraplaceableDesc"/>
+			<property name="HoldType" value="7"/>
+			<property name="CustomIcon" value="VehicleCarArmoredCobra_1"/>
+			<property name="HoldingItemHidden" value="true"/>
+			<property name="Meshfile" value="#@modfolder:Resources/VMCraftables.unity3d?VehicleCarArmoredCobra"/>
+			<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="EconomicValue" value="6000"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="Stacknumber" value="1"/>
+			<property class="Action1">
+				<property name="Class" value="SpawnVehicle"/>
+				<property name="Vehicle" value="vehicleGuppyArmoredCobra"/>
+			</property>
+			<effect_group name="vehicleGuppyArmoredCobraPlaceable" tiered="false">
+				<passive_effect name="ModSlots" operation="base_set" value="1"/>
+				<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+				<passive_effect name="DegradationMax" operation="base_set" value="9500"/>
+			</effect_group>
+		</item>
+
+		<item name="vehicleGuppyBuggyPlaceable">
+			<property name="Tags" value="vehicle"/>
+			<property name="DescriptionKey" value="vehicleGuppyBuggyplaceableDesc"/>
+			<property name="HoldType" value="7"/>
+			<property name="CustomIcon" value="guppyVehicleBuggy_1"/>
+			<property name="HoldingItemHidden" value="true"/>
+			<property name="Meshfile" value="#@modfolder:Resources/VMCraftables.unity3d?guppyVehicleBuggy"/>
+			<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="EconomicValue" value="6000"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="Stacknumber" value="1"/>
+			<property class="Action1">
+				<property name="Class" value="SpawnVehicle"/>
+				<property name="Vehicle" value="vehicleGuppyBuggy"/>
+			</property>
+			<effect_group name="vehicleGuppyBuggyPlaceable" tiered="false">
+				<passive_effect name="ModSlots" operation="base_set" value="1"/>
+				<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+				<passive_effect name="DegradationMax" operation="base_set" value="4500"/>
+			</effect_group>
+		</item>
+
+		<item name="vehicleGuppyQuadPlaceable">
+			<property name="Tags" value="vehicle"/>
+			<property name="DescriptionKey" value="vehicleGuppyQuadbackplaceableDesc"/>
+			<property name="HoldType" value="7"/>
+			<property name="CustomIcon" value="guppyVehicleQuad_1"/>
+			<property name="HoldingItemHidden" value="true"/>
+			<property name="Meshfile" value="#@modfolder:Resources/Quadfix.unity3d?guppyVehicleQuad"/>
+			<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="EconomicValue" value="6000"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="Stacknumber" value="1"/>
+			<property class="Action1">
+				<property name="Class" value="SpawnVehicle"/>
+				<property name="Vehicle" value="vehicleGuppyQuad"/>
+			</property>
+			<effect_group name="vehicleGuppyQuadPlaceable" tiered="false">
+				<passive_effect name="ModSlots" operation="base_set" value="1"/>
+				<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+				<passive_effect name="DegradationMax" operation="base_set" value="2500"/>
+			</effect_group>
+		</item>
+
+		<item name="vehicleGuppyMilitaryTruckPlaceable">
+			<property name="Tags" value="vehicle"/>
+			<property name="DescriptionKey" value="vehicleGuppyMilitaryTruckplaceableDesc"/>
+			<property name="HoldType" value="7"/>
+			<property name="CustomIcon" value="guppyVehicleMilitaryTruck_1"/>
+			<property name="HoldingItemHidden" value="true"/>
+			<property name="Meshfile" value="#@modfolder:Resources/VMTrucksandCustom.unity3d?guppyVehicleMilitaryTruck"/>
+			<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="EconomicValue" value="6000"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="Stacknumber" value="1"/>
+			<property class="Action1">
+				<property name="Class" value="SpawnVehicle"/>
+				<property name="Vehicle" value="vehicleGuppyMilitaryTruck"/>
+			</property>
+			<effect_group name="vehicleGuppyMilitaryTruckPlaceable" tiered="false">
+				<passive_effect name="ModSlots" operation="base_set" value="1"/>
+				<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+				<passive_effect name="DegradationMax" operation="base_set" value="8500"/>
+			</effect_group>
+		</item>
+
+		<!--  Remove until fixes applied  <item name="vehicleGuppyMotorCyclePlaceable"> 
+			<property name="Tags" value="vehicle"/>
+			<property name="DescriptionKey" value="vehicleGuppyMotorCycleplaceableDesc"/>
+			<property name="HoldType" value="7"/>
+			<property name="CustomIcon" value="carCycle"/>
+			<property name="HoldingItemHidden" value="true"/>
+			<property name="Meshfile" value="#@modfolder:Resources/Motorcycle1fix.unity3d?guppyVehicleMotorCycle"/>
+			<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="EconomicValue" value="6000"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="Stacknumber" value="1"/>
+			<property class="Action1">
+				<property name="Class" value="SpawnVehicle"/>
+				<property name="Vehicle" value="vehicleGuppyMotorCycle"/>
+			</property>
+			<effect_group name="vehicleGuppyMotorCyclePlaceable" tiered="false">
+				<passive_effect name="ModSlots" operation="base_set" value="1"/>
+				<passive_effect name="DegradationMax" operation="base_set" value="2500"/>
+			</effect_group>
+		</item> -->	
 	</append>
 </MangoTweaks>

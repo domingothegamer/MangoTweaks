@@ -7,3 +7,29 @@ drinkMangosElixer3,Items,Drink,,,"Mango's Elixer 3"
 drinkMangosElixer3Desc,Items,Drink,,,"A drink from the Mango man that gives EXP @ 500000"
 resourceScrapBrassBundle,items,Item,,,"Stack of Brass (6000)"
 resourceScrapBrassBundleDesc,items,Item,,,"This is a compact stack of brass. Use this item to open and unpack it."
+
+vehicleUH60chassis,items,Part,EnChanged,UH-60 Chassis,,,,,
+vehicleUH60chassisDesc,items,Part,EnChanged,Parts needed to craft the UH-60. Grease Monkey level 5 required.,,,,,
+vehicleUH60accessories,items,Part,EnChanged,UH-60 Accessories,,,,,
+vehicleUH60accessoriesDesc,items,Part,EnChanged,Parts needed to craft the UH-60.,,,,,
+vehicleUH60,vehicles,vehicle,new,UH-60,,,,,
+vehicleUH60placeable,vehicles,item,EnChanged,UH-60,,,,,
+vehicleUH60placeableDesc,vehicles,item,EnChanged,They can't kill you if they can't hit you!,,,,,
+<!-- 
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+			          Vehicle Madness Beta 1										
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    -->
+<!-- ###### New Vehicles ###### -->
+vehicleGuppyMilitaryTruck,vehicles,vehicle,new,Military Truck.,,,,,
+vehicleGuppyMilitaryTruckplaceable,vehicles,item,EnChanged,Military Truck.,,,,,
+vehicleGuppyMilitaryTruckplaceableDesc,vehicles,item,EnChanged,A Military Truck.,,,,,
+vehicleGuppyBuggy,vehicles,vehicle,new,Buggy.,,,,,
+vehicleGuppyBuggyplaceable,vehicles,item,EnChanged,Buggy.,,,,,
+vehicleGuppyBuggyplaceableDesc,vehicles,item,EnChanged,A custom Buggy.,,,,,
+vehicleGuppyQuad,vehicles,vehicle,new,Quad Bike.,,,,,
+vehicleGuppyQuadbackplaceable,vehicles,item,EnChanged,Quad Bike.,,,,,
+vehicleGuppyQuadbackplaceableDesc,vehicles,item,EnChanged,A custom Quad Bike.,,,,,
+vehicleGuppyArmoredCobra,vehicles,vehicle,new,Armored Cobra.,,,,,
+vehicleGuppyArmoredCobraplaceable,vehicles,item,EnChanged,Armored Cobra.,,,,,
+vehicleGuppyArmoredCobraplaceableDesc,vehicles,item,EnChanged,Armored Cobra.,,,,,
