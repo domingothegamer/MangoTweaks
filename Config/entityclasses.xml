@@ -23,7 +23,89 @@
 		<property name="NavObject" value="UH60" />
 	</entity_class>
 
+	<entity_class name="vehicleDirtBike">
+		<property name="Tags" value="vehicle"/>
+		<property name="Class" value="EntityMotorcycle"/>
+		<property name="Parent" value="Cars"/>
+		<property name="Prefab" value="#@modfolder:Resources/db1.unity3d?Dirt_Bike.prefab"/>
+		<property name="ModelType" value="Standard"/>
+		<property name="SurfaceCategory" value="metal"/>
+		<property name="IgnoreTrigger" value="true"/>
+		<property name="LootListAlive" value="76"/>
+		<property name="IsEnemyEntity" value="false"/>
+		<property name="Explosion.ParticleIndex" value="6"/>
+		<property name="Explosion.RadiusBlocks" value="5"/>
+		<property name="Explosion.RadiusEntities" value="5"/>
+		<property name="Explosion.BlockDamage" value="100"/>
+		<property name="Explosion.EntityDamage" value="100"/>
+		<property name="RotateToGround" value="true"/>
+		<property name="Faction" value="none"/>
+		<property name="MapIcon" value="DirtBikeicon"/>
+		<property name="NavObject" value="DirtBike" />
+	</entity_class>
 
+	<entity_class name="vehicleMD500">
+		<property name="Tags" value="vehicle"/>
+		<property name="Class" value="EntityVGyroCopter"/>
+		<property name="Parent" value="Cars"/>
+		<property name="Prefab" value="#@modfolder:Resources/MD500.unity3d?MD500heli.prefab"/>
+		<property name="ModelType" value="Standard"/>
+		<property name="SurfaceCategory" value="metal"/>
+		<property name="IgnoreTrigger" value="true"/>
+		<property name="LootListAlive" value="80"/>
+		<property name="IsEnemyEntity" value="false"/>
+		<property name="Explosion.ParticleIndex" value="6"/>
+		<property name="Explosion.RadiusBlocks" value="3"/>
+		<property name="Explosion.RadiusEntities" value="3"/>
+		<property name="Explosion.BlockDamage" value="30"/>
+		<property name="Explosion.EntityDamage" value="30"/>
+		<property name="RotateToGround" value="true"/>
+		<property name="Faction" value="none"/>
+		<property name="MapIcon" value="MD500UIicon"/>
+		<property name="NavObject" value="MD500" />
+	</entity_class>
+
+	<entity_class name="vehicleHumvee">
+		<property name="Tags" value="vehicle"/>
+		<property name="Class" value="EntityVJeep"/>
+		<property name="Parent" value="Cars"/>
+		<property name="Prefab" value="#@modfolder:Resources/Hummer.unity3d?Humvee1.prefab"/>
+		<property name="ModelType" value="Standard"/>
+		<property name="SurfaceCategory" value="metal"/>
+		<property name="IgnoreTrigger" value="true"/>
+		<property name="LootListAlive" value="79"/>
+		<property name="IsEnemyEntity" value="false"/>
+		<property name="Explosion.ParticleIndex" value="6"/>
+		<property name="Explosion.RadiusBlocks" value="5"/>
+		<property name="Explosion.RadiusEntities" value="5"/>
+		<property name="Explosion.BlockDamage" value="100"/>
+		<property name="Explosion.EntityDamage" value="100"/>
+		<property name="RotateToGround" value="true"/>
+		<property name="Faction" value="none"/>
+		<property name="MapIcon" value="Humveeicon"/>
+		<property name="NavObject" value="Humvee" />
+	</entity_class>
+	
+	<entity_class name="vehicleHumveeTopless">
+		<property name="Tags" value="vehicle"/>
+		<property name="Class" value="EntityVJeep"/>
+		<property name="Parent" value="Cars"/>
+		<property name="Prefab" value="#@modfolder:Resources/Hummer.unity3d?Humvee2.prefab"/>
+		<property name="ModelType" value="Standard"/>
+		<property name="SurfaceCategory" value="metal"/>
+		<property name="IgnoreTrigger" value="true"/>
+		<property name="LootListAlive" value="79"/>
+		<property name="IsEnemyEntity" value="false"/>
+		<property name="Explosion.ParticleIndex" value="6"/>
+		<property name="Explosion.RadiusBlocks" value="5"/>
+		<property name="Explosion.RadiusEntities" value="5"/>
+		<property name="Explosion.BlockDamage" value="100"/>
+		<property name="Explosion.EntityDamage" value="100"/>
+		<property name="RotateToGround" value="true"/>
+		<property name="Faction" value="none"/>
+		<property name="MapIcon" value="Humveeicon"/>
+		<property name="NavObject" value="Humvee" />
+	</entity_class>
 
 	<entity_class name="vehicleGuppyMilitaryTruck">
 		<property name="Tags" value="vehicle"/>
