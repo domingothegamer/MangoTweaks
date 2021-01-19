@@ -1,0 +1,194 @@
+<configs>
+<!-- VEHICLE MADNESS A19 Ver 3.0 Beta 1 August 2020 -->
+<append xpath="/entity_classes">
+	
+	<entity_class name="vehicleUH60">
+		<property name="Tags" value="vehicle"/>
+		<property name="Class" value="EntityVGyroCopter"/>
+		<property name="Parent" value="Cars"/>
+		<property name="Prefab" value="#@modfolder:Resources/uh60.unity3d?UH60heli.prefab"/>
+		<property name="ModelType" value="Standard"/>
+		<property name="SurfaceCategory" value="metal"/>
+		<property name="IgnoreTrigger" value="true"/>
+		<property name="LootListAlive" value="79"/>
+		<property name="IsEnemyEntity" value="false"/>
+		<property name="Explosion.ParticleIndex" value="6"/>
+		<property name="Explosion.RadiusBlocks" value="3"/>
+		<property name="Explosion.RadiusEntities" value="3"/>
+		<property name="Explosion.BlockDamage" value="30"/>
+		<property name="Explosion.EntityDamage" value="30"/>
+		<property name="RotateToGround" value="true"/>
+		<property name="Faction" value="none"/>
+		<property name="MapIcon" value="UH60icon"/>
+		<property name="NavObject" value="UH60" />
+	</entity_class>
+
+	<entity_class name="vehicleDirtBike">
+		<property name="Tags" value="vehicle"/>
+		<property name="Class" value="EntityMotorcycle"/>
+		<property name="Parent" value="Cars"/>
+		<property name="Prefab" value="#@modfolder:Resources/db1.unity3d?Dirt_Bike.prefab"/>
+		<property name="ModelType" value="Standard"/>
+		<property name="SurfaceCategory" value="metal"/>
+		<property name="IgnoreTrigger" value="true"/>
+		<property name="LootListAlive" value="76"/>
+		<property name="IsEnemyEntity" value="false"/>
+		<property name="Explosion.ParticleIndex" value="6"/>
+		<property name="Explosion.RadiusBlocks" value="5"/>
+		<property name="Explosion.RadiusEntities" value="5"/>
+		<property name="Explosion.BlockDamage" value="100"/>
+		<property name="Explosion.EntityDamage" value="100"/>
+		<property name="RotateToGround" value="true"/>
+		<property name="Faction" value="none"/>
+		<property name="MapIcon" value="DirtBikeicon"/>
+		<property name="NavObject" value="DirtBike" />
+	</entity_class>
+
+	<entity_class name="vehicleMD500">
+		<property name="Tags" value="vehicle"/>
+		<property name="Class" value="EntityVGyroCopter"/>
+		<property name="Parent" value="Cars"/>
+		<property name="Prefab" value="#@modfolder:Resources/MD500.unity3d?MD500heli.prefab"/>
+		<property name="ModelType" value="Standard"/>
+		<property name="SurfaceCategory" value="metal"/>
+		<property name="IgnoreTrigger" value="true"/>
+		<property name="LootListAlive" value="80"/>
+		<property name="IsEnemyEntity" value="false"/>
+		<property name="Explosion.ParticleIndex" value="6"/>
+		<property name="Explosion.RadiusBlocks" value="3"/>
+		<property name="Explosion.RadiusEntities" value="3"/>
+		<property name="Explosion.BlockDamage" value="30"/>
+		<property name="Explosion.EntityDamage" value="30"/>
+		<property name="RotateToGround" value="true"/>
+		<property name="Faction" value="none"/>
+		<property name="MapIcon" value="MD500UIicon"/>
+		<property name="NavObject" value="MD500" />
+	</entity_class>
+
+	<entity_class name="vehicleHumvee">
+		<property name="Tags" value="vehicle"/>
+		<property name="Class" value="EntityVJeep"/>
+		<property name="Parent" value="Cars"/>
+		<property name="Prefab" value="#@modfolder:Resources/Hummer.unity3d?Humvee1.prefab"/>
+		<property name="ModelType" value="Standard"/>
+		<property name="SurfaceCategory" value="metal"/>
+		<property name="IgnoreTrigger" value="true"/>
+		<property name="LootListAlive" value="79"/>
+		<property name="IsEnemyEntity" value="false"/>
+		<property name="Explosion.ParticleIndex" value="6"/>
+		<property name="Explosion.RadiusBlocks" value="5"/>
+		<property name="Explosion.RadiusEntities" value="5"/>
+		<property name="Explosion.BlockDamage" value="100"/>
+		<property name="Explosion.EntityDamage" value="100"/>
+		<property name="RotateToGround" value="true"/>
+		<property name="Faction" value="none"/>
+		<property name="MapIcon" value="Humveeicon"/>
+		<property name="NavObject" value="Humvee" />
+	</entity_class>
+	
+	<entity_class name="vehicleHumveeTopless">
+		<property name="Tags" value="vehicle"/>
+		<property name="Class" value="EntityVJeep"/>
+		<property name="Parent" value="Cars"/>
+		<property name="Prefab" value="#@modfolder:Resources/Hummer.unity3d?Humvee2.prefab"/>
+		<property name="ModelType" value="Standard"/>
+		<property name="SurfaceCategory" value="metal"/>
+		<property name="IgnoreTrigger" value="true"/>
+		<property name="LootListAlive" value="79"/>
+		<property name="IsEnemyEntity" value="false"/>
+		<property name="Explosion.ParticleIndex" value="6"/>
+		<property name="Explosion.RadiusBlocks" value="5"/>
+		<property name="Explosion.RadiusEntities" value="5"/>
+		<property name="Explosion.BlockDamage" value="100"/>
+		<property name="Explosion.EntityDamage" value="100"/>
+		<property name="RotateToGround" value="true"/>
+		<property name="Faction" value="none"/>
+		<property name="MapIcon" value="Humveeicon"/>
+		<property name="NavObject" value="Humvee" />
+	</entity_class>
+
+	<entity_class name="vehicleGuppyMilitaryTruck">
+		<property name="Tags" value="vehicle"/>
+		<property name="DescriptionKey" value="vehiclePlaceableGroupDesc"/>
+		<property name="Class" value="EntityVJeep"/>
+		<property name="Parent" value="Cars"/>
+		<property name="Prefab" value="#@modfolder:Resources/VMTrucksandCustom.unity3d?guppyVehicleMilitaryTruck"/>
+		<property name="ModelType" value="Standard"/>
+		<property name="SurfaceCategory" value="metal"/>
+		<property name="IgnoreTrigger" value="true"/>
+		<property name="LootListAlive" value="77"/>
+		<property name="IsEnemyEntity" value="false"/>
+		<property name="Explosion.ParticleIndex" value="6"/>
+		<property name="Explosion.RadiusBlocks" value="3"/>
+		<property name="Explosion.RadiusEntities" value="3"/>
+		<property name="Explosion.BlockDamage" value="20"/>
+		<property name="Explosion.EntityDamage" value="20"/>
+		<property name="RotateToGround" value="true"/>
+		<property name="Faction" value="none"/>
+		 <property name="MapIcon" value="guppyVehicleMilitaryTruck_UI"/>
+	<!--<property name="NavObject" value="guppyVehicleMilitaryTruck_UI" />-->
+	</entity_class>	
+	
+	<entity_class name="vehicleGuppyBuggy">
+		<property name="Tags" value="vehicle"/>
+		<property name="Class" value="EntityVJeep"/>
+		<property name="Parent" value="Cars"/>
+		<property name="Prefab" value="#@modfolder:Resources/VMCraftables.unity3d?guppyVehicleBuggy"/>
+		<property name="ModelType" value="Standard"/>
+		<property name="SurfaceCategory" value="metal"/>
+		<property name="IgnoreTrigger" value="true"/>
+		<property name="LootListAlive" value="77"/>
+		<property name="IsEnemyEntity" value="false"/>
+		<property name="Explosion.ParticleIndex" value="6"/>
+		<property name="Explosion.RadiusBlocks" value="3"/>
+		<property name="Explosion.RadiusEntities" value="3"/>
+		<property name="Explosion.BlockDamage" value="20"/>
+		<property name="Explosion.EntityDamage" value="20"/>
+		<property name="RotateToGround" value="true"/>
+		<property name="Faction" value="none"/>
+		<property name="MapIcon" value="Buggy_UI"/> 
+		<!--<property name="NavObject" value="Buggy_UI" />-->
+	</entity_class>
+	
+	<entity_class name="vehicleGuppyQuad">
+		<property name="Tags" value="vehicle"/>
+		<property name="Class" value="EntityVJeep"/>
+		<property name="Parent" value="Cars"/>
+		<property name="Prefab" value="#@modfolder:Resources/Quadfix.unity3d?guppyVehicleQuad"/>
+		<property name="ModelType" value="Standard"/>
+		<property name="SurfaceCategory" value="metal"/>
+		<property name="IgnoreTrigger" value="true"/>
+		<property name="LootListAlive" value="77"/>
+		<property name="IsEnemyEntity" value="false"/>
+		<property name="Explosion.ParticleIndex" value="6"/>
+		<property name="Explosion.RadiusBlocks" value="3"/>
+		<property name="Explosion.RadiusEntities" value="3"/>
+		<property name="Explosion.BlockDamage" value="20"/>
+		<property name="Explosion.EntityDamage" value="20"/>
+		<property name="RotateToGround" value="true"/>
+		<property name="Faction" value="none"/>
+		<property name="MapIcon" value="Quad_UI"/> 
+		<!--<property name="NavObject" value="Quad_UI" />-->
+	</entity_class>
+	<entity_class name="vehicleGuppyArmoredCobra">
+		<property name="Tags" value="vehicle"/>
+		<property name="Class" value="EntityVJeep"/>
+		<property name="Parent" value="Cars"/>
+		<property name="Prefab" value="#@modfolder:Resources/VMCraftables.unity3d?VehicleCarArmoredCobra"/>
+		<property name="ModelType" value="Standard"/>
+		<property name="SurfaceCategory" value="metal"/>
+		<property name="IgnoreTrigger" value="true"/>
+		<property name="LootListAlive" value="77"/>
+		<property name="IsEnemyEntity" value="false"/>
+		<property name="Explosion.ParticleIndex" value="6"/>
+		<property name="Explosion.RadiusBlocks" value="3"/>
+		<property name="Explosion.RadiusEntities" value="3"/>
+		<property name="Explosion.BlockDamage" value="20"/>
+		<property name="Explosion.EntityDamage" value="20"/>
+		<property name="RotateToGround" value="true"/>
+		<property name="Faction" value="none"/>
+		<property name="MapIcon" value="ArmoredCobra_UI"/>
+		<!-- <property name="NavObject" value="ArmoredCobra_UI" /> -->
+	</entity_class>
+</append>
+</configs>

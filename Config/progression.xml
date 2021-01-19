@@ -1,0 +1,8 @@
+<configs>
+
+	<append xpath="/progression/perks/perk[@name='perkGreaseMonkey']/effect_group/passive_effect[@level='5']/@tags">,vehicleUH60chassis,vehicleUH60accessories</append>
+	<append xpath="/progression/perks/perk[@name='perkGreaseMonkey']/effect_group/passive_effect[@level='3,5']/@tags">,vehicleDirtBikeChassis,vehicleDirtBikeParts</append>
+	<append xpath="/progression/perks/perk[@name='perkGreaseMonkey']/effect_group/passive_effect[@level='4,5']/@tags">,vehicleHumveechassis,vehicleHumveebody</append>
+	<append xpath="/progression/perks/perk[@name='perkGreaseMonkey']/effect_group/passive_effect[@level='4,5']/@tags">,vehicleMD500chassis,vehicleMD500accessories</append>
+		
+ </configs>

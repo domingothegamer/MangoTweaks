@@ -1,0 +1,53 @@
+<configs>
+	<append xpath="/nav_object_classes">
+
+		<nav_object_class name="UH60" extends="bicycle">
+			<property name="requirement_type" value="IsVehicleOwner" />
+
+			<compass_settings>
+				<property name="sprite_name" value="UH60icon"/>
+			</compass_settings>
+
+			<onscreen_settings>
+				<property name="sprite_name" value="UH60icon"/>
+			</onscreen_settings>
+		</nav_object_class>
+
+		<nav_object_class name="DirtBike" extends="bicycle">
+			<property name="requirement_type" value="IsVehicleOwner" />
+
+			<compass_settings>
+				<property name="sprite_name" value="DirtBikeicon"/>
+			</compass_settings>
+
+			<onscreen_settings>
+				<property name="sprite_name" value="DirtBikeicon"/>
+			</onscreen_settings>
+		</nav_object_class>
+
+		<nav_object_class name="Humvee" extends="bicycle">
+			<property name="requirement_type" value="IsVehicleOwner" />
+
+			<compass_settings>
+				<property name="sprite_name" value="Humveeicon"/>
+			</compass_settings>
+
+			<onscreen_settings>
+				<property name="sprite_name" value="Humveeicon"/>
+			</onscreen_settings>
+		</nav_object_class>
+
+		<nav_object_class name="MD500" extends="bicycle">
+			<property name="requirement_type" value="IsVehicleOwner" />
+
+			<compass_settings>
+				<property name="sprite_name" value="MD500UIicon"/>
+			</compass_settings>
+
+			<onscreen_settings>
+				<property name="sprite_name" value="MD500UIicon"/>
+			</onscreen_settings>
+		</nav_object_class>
+
+	</append>
+</configs>

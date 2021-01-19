@@ -1,0 +1,10 @@
+<Configs>
+<!-- VEHICLE MADNESS A19 Ver 3.0 Beta 1 August 2020 -->
+	  <append xpath="/materials">
+		<material id="Mfakeair">
+		<property name="collidable" value="false"/>
+		<property name="lightopacity" value="0"/>
+		<property name="ground_cover" value="true"/>
+		</material>
+	  </append>
+</Configs>
